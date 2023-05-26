@@ -6,7 +6,7 @@ import androidx.room.Delete
 import androidx.room.Insert
 import androidx.room.OnConflictStrategy
 import androidx.room.Query
-import com.androiddevs.mvvmnewsapp.ui.Article
+import com.androiddevs.mvvmnewsapp.ui.models.Article
 
 
 @Dao
@@ -21,4 +21,17 @@ interface ArticleDao {
 
     @Delete
     suspend fun deleteArticle(article: Article)
+
+
+
 }
+
+
+
+
+
+
+
+
+
+
